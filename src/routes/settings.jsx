@@ -76,14 +76,14 @@ function tempDropdownTwo() {
 
 export default function tempControl() {
 const tempInfo = {
-    currentTemp: "last",
-    newTemp: "Name",
+    currentMaxTemp: "last",
+    newMaxTemp: 'tempDropdownOne',
 }
     return (
         <div>
-            <h1>{`tempInfo.currentTemp`}</h1>
+            <h1>Current Max Temp:{`tempInfo.currentMaxTemp`}</h1>
         
-            <h1>{`tempInfo.newTemp`}</h1>
+            <h1>New Max Temp:{`tempInfo.newMaxTemp`}</h1>
         </div>
         
     )
