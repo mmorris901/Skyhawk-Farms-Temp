@@ -7,7 +7,7 @@ export default function ErrorPage() {
   return (
     <div id="error-page">
       <h1>Oops!</h1>
-      <p>Sorry, we lost all of the elements.</p>
+      <p>Sorry, we lost this element.</p>
       <p>
         <i>{error.statusText || error.message}</i>
       </p>
